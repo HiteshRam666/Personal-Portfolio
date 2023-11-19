@@ -1,0 +1,135 @@
+/* .contact{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactForm{
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vw;
+    max-width: 60rem;
+}
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+} */
+#contact {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white; /* Set the color for the title */
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 300;
+    color: white; /* Set the color for the description */
+}
+
+.contactForm {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Style the form input fields */
+.name,
+.email,
+.msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+.submitBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the social media links */
+.links {
+    margin-top: 20px;
+}
+
+.link {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Add more specific styling if needed */

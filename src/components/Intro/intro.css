@@ -54,14 +54,19 @@
 
 @media screen and (max-width:840px){
     .bg{
-        right: -20vw
+        right: -30vw;
+        overflow: visible;
     }
     .introContent{
-        font-size: 10vw;
+        font-size: 8vw;
     }
     .hello{
         font-size: 4.4vw;
     }
+    .p{
+        font-size: 2px;
+    }
+
 }
 @media screen and (max-width:480px){
     .bg{

@@ -46,8 +46,8 @@ const Contact = () => {
           Submit
         </button>
         <div className="links">
-          <img src={InstagramIcon} alt="instagram" className="link" />
-          <img src={TwitterIcon} alt="twitter" className="link" />
+          <a href="https://www.instagram.com/hitesh_raaa/"><img src={InstagramIcon} alt="instagram" className="link" /></a>
+          <a href="https://twitter.com/HiteshRam666"><img src={TwitterIcon} alt="twitter" className="link" /></a>
         </div>
       </form>
     </div>

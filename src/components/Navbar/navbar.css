@@ -19,7 +19,7 @@
 }
 .desktopMenuListItem{
     margin: 1rem;
-    cursor: pointer;   
+    cursor: pointer;
 }
 .desktopMenuListItem:hover{
     color: yellow;

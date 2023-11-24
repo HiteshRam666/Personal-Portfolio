@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
   return (
     <nav className="navbar">
-      <img src={logo} className="logo" />
+      <img src={logo} alt="" className="logo" />
       <div className="desktopMenu">
         <Link
           activeClass="active"
@@ -52,7 +52,7 @@ const Navbar = () => {
         Contact Me
       </button>
 
-      <img src={menu} className="mobMenu" onClick={() => setShowMenu(!showMenu)}/>
+      <img src={menu} className="mobMenu" alt="" onClick={() => setShowMenu(!showMenu)}/>
       <div className="navMenu" style={{display: showMenu? 'flex' : 'none'}}>
         <Link
           activeClass="active"
